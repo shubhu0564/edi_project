@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# environment / secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+*.local
+
+# build output
+build/
+dist/
+.cache/
+coverage/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
